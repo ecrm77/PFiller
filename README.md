@@ -15,7 +15,7 @@ The User can click on the website link that he/she created for the Application, 
 - Download and extract the Derby driver and add the "lib" folder to "PFiller" folder.
   Download Derby here: https://db.apache.org/derby/derby_downloads.html
 
-# Run the Application IDE
+# Run the Application in IDEA
 
 - Click on "Run" to start the Application
 - Choose a username and password 
