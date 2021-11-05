@@ -1,4 +1,4 @@
-# PFiller
+## PFiller
 
 Java GUI Application - Website Password Filler Using Chromedriver. Written and tested on MAC. For Windows and Linux, you need some adjustments.
 
@@ -6,7 +6,7 @@ This Application can log in User automatically to a specific webpage with one-pa
 The User needs to add the XPaths (for Username Field, Password Field, and Submit Button) from the website Form into the Application. All the information will be secured and encrypted in the Application Database.
 The User can click on the website link that he/she created for the Application, and the Chrome Application will launch and fill in the information for the login.
 
-# Dependencies and folder structure.
+## Dependencies and folder structure.
 
 - Create a folder named "PFiller" and a subfolder "pfillerGui".
 - Add all *.java and *.form files in to "pfillerGui" folder.
@@ -20,7 +20,7 @@ The User can click on the website link that he/she created for the Application, 
 - Add Chromedriver to the "res" folder.
 
 
-# Run the Application in IDEA and setup.
+## Run the Application in IDEA and setup.
 
 - Click on "Run" to start the Application
 - Choose a username and password 
@@ -40,7 +40,15 @@ The User can click on the website link that he/she created for the Application, 
 - If you click on GitHub, Chrome will launch and open up the GitHub login page, fill in the user information, and log in. One more click on the same closes the Chrome.
 
 
-  
+## Create installer package for MAC (.pkg)
+
+- Build artifact for the project on your IDEA and that creates a JAR File.
+- The Information about java packaging guide: https://docs.oracle.com/en/java/javase/14/jpackage/packaging-overview.html#GUID-C1027043-587D-418D-8188-EF8F44A4C06A 
+- Here is a example for MAC:
+>/Users/Home/Library/Java/JavaVirtualMachines/openjdk-14.0.1/Contents/Home/bin/jpackage --type pkg --description "Browser password filler" --vendor "ecrm77" --app-version 1.0 --input input --dest output --name PFiller --icon /Users/Home/Desktop/build/res/pfiller128.icns --main-jar PFiller.jar
+
+
+
 
   
   
