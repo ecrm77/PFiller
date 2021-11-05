@@ -11,18 +11,21 @@ The User can click on the website link that he/she created for the Application, 
 - Create a folder named "PFiller" and a subfolder "pfillerGui".
 - Add all *.java and *.form files in to "pfillerGui" folder.
 - Add "pom.xml" file to the top folder "PFiller"
+- Add "res" Folder to "PFiller"
 - Load the Maven dependecies in to the project. 
 - Download and extract the Derby driver and add the "lib" folder to "PFiller" folder.
   Download Derby: https://db.apache.org/derby/derby_downloads.html
 - Download the Chromedriver the same version of installed Chrome.
   Download Chromedriver: https://chromedriver.chromium.org/downloads
+- Add Chromedriver to the "res" folder.
+
 
 # Run the Application in IDEA and setup.
 
 - Click on "Run" to start the Application
 - Choose a username and password 
 - Log into the Application
-- The Application creates a folder under user.home/PFiller. Copy the Chromedriver into that folder.
+- The Application creates a folder under user.home/PFiller.
 - Setup example:
 - Go to the Settings in Application and click on "Add new website to Database (one-page login).
 - Open the website https://github.com/login
