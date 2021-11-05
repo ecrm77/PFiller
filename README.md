@@ -42,7 +42,7 @@ The User can click on the website link that he/she created for the Application, 
 
 ## Create installer package for MAC (.pkg)
 
-- Build artifact for the project on your IDEA and that creates a JAR File.
+- Build an artifact for the project on your IDEA, and that creates a JAR File.
 - The Information about java packaging guide: https://docs.oracle.com/en/java/javase/14/jpackage/packaging-overview.html#GUID-C1027043-587D-418D-8188-EF8F44A4C06A 
 - Here is a example for MAC:
 >/Users/Home/Library/Java/JavaVirtualMachines/openjdk-14.0.1/Contents/Home/bin/jpackage --type pkg --description "Browser password filler" --vendor "ecrm77" --app-version 1.0 --input input --dest output --name PFiller --icon /Users/Home/Desktop/build/res/pfiller128.icns --main-jar PFiller.jar
