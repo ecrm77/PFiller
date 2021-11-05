@@ -59,7 +59,7 @@ public class Login {
 
                         DataBase dataBase = new DataBase(user,pass);
 
-                        File sourceFile = new File( "/Applications/PFiller.app/Contents/app/webdriver/chromedriver" );
+                        File sourceFile = new File( "res/chromedriver" );
                         Path sourcePath = sourceFile.toPath();
                         String dirUser = System.getProperty("user.home");
                         File theDir = new File(dirUser+"/PFiller");
@@ -72,7 +72,7 @@ public class Login {
 
                         Files.copy( sourcePath, destPath );
 
-                        String f = "/Applications/PFiller.app/Contents/app/res/PFiller128.png";
+                        String f = "res/PFiller128.png";
 
                         BufferedImage bi = ImageIO.read(new File(f));
 
@@ -82,7 +82,7 @@ public class Login {
                         String pathDB2 = dirUser2+"/PFiller/res/PFiller128.png";
                         ImageIO.write(bi, "png", new File(pathDB2));
 
-                        File sourceFileSH = new File( "/Applications/PFiller.app/Contents/app/res/browserVersion.sh" );
+                        File sourceFileSH = new File( "res/browserVersion.sh" );
                         Path sourcePathSH = sourceFileSH.toPath();
 
                         String pathDBsh = dirUser+"/PFiller/res/browserVersion.sh";
