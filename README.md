@@ -8,7 +8,7 @@ The User can click on the website link it created for the Application, and the C
 
 ## Dependencies and folder structure.
 
-- Load the Maven dependencies into the project. 
+- Load the Maven dependencies into the project (pom.xml). 
 - Download and extract the Derby driver and add the "lib" folder to the "PFiller" folder.
   Derby link: https://db.apache.org/derby/derby_downloads.html
 - Download the Chromedriver the same version of installed Chrome.
