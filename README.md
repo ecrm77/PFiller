@@ -22,13 +22,13 @@ The User can click on the website link it created for the Application, and the C
 - Choose a username and password 
 - Log into the Application
 - The Application creates the PFiller folder under user.home
-- Setup example for GitHub:
+#### Setup example for GitHub login site:
 - Go to the Settings in Application and click on "Add a new website to Database (one-page login).
 - Name: Choose a name for the connection (no URL link).
 - Website: URL link to login.
 - Username and Password for the site.
 - Open the website https://github.com/login
-- Click on the username field, click right and Inspect. It opens the HTML Elements on the right. Right-click on the highlighted elements and Copy->Copy XPath. Paste the value into the Username field in the Application. Do the same for the password field and Sing in button ( right-click on the button and click on inspect) and paste them into the relevant fields.
+- Click on the username field, click right and Inspect. It opens the HTML Elements on the right. Right-click on the highlighted elements and Copy->Copy XPath. Paste the value into the Username field in the Application. Do the same for the password field and Sing in button ( right-click on the button and click on inspect) and paste them into the relevant fields. If you put all the information, then click on Add.
  
 - <img width="687" alt="Screen Shot 2021-11-05 at 07 03 00" src="https://user-images.githubusercontent.com/93434712/140465695-3e37ade9-9e9e-49bc-9dd1-c2bf67503188.png">
 
