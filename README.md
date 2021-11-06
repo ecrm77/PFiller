@@ -25,7 +25,7 @@ The User can click on the website link that he/she created for the Application, 
 - Setup example:
 - Go to the Settings in Application and click on "Add a new website to Database (one-page login).
 - Open the website https://github.com/login
-- Click on the username field, click right and Inspect. It opens on the right of the HTML Elements and click one more time right on the highlighted element and Copy->Copy XPath. Paste the value into the Username field in the Application. Do the same for the password field and Sing in button ( right-click on the button without clicking)
+- Click on the username field, click right and Inspect. It opens the HTML Elements on the right. Right-click on the highlighted elements and Copy->Copy XPath. Paste the value into the Username field in the Application. Do the same for the password field and Sing in button ( right-click on the button and click on inspect) and paste them into the relevant Field.
  
 - <img width="687" alt="Screen Shot 2021-11-05 at 07 03 00" src="https://user-images.githubusercontent.com/93434712/140465695-3e37ade9-9e9e-49bc-9dd1-c2bf67503188.png">
 
