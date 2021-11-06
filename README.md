@@ -24,7 +24,7 @@ The User can click on the website link that he/she created for the Application, 
 - The Application creates a folder under user.home/PFiller.
 - Setup example for GitHub:
 - Go to the Settings in Application and click on "Add a new website to Database (one-page login).
-- Name: Choose a name for the connection (no HTML link).
+- Name: Choose a name for the connection (no URL link).
 - Website: URL link to login.
 - Username and Password for the site.
 - Open the website https://github.com/login
