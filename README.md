@@ -23,7 +23,7 @@ The User can click on the website link that he/she created for the Application, 
 - Log into the Application
 - The Application creates a folder under user.home/PFiller.
 - Setup example:
-- Go to the Settings in Application and click on "Add new website to Database (one-page login).
+- Go to the Settings in Application and click on "Add a new website to Database (one-page login).
 - Open the website https://github.com/login
 - Click on the username field, click right and Inspect. It opens on the right of the HTML Elements and click one more time right on the highlighted element and Copy->Copy XPath. Paste the value into the Username field in the Application. Do the same for the password field and Sing in button ( right-click on the button without clicking)
  
