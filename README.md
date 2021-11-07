@@ -8,7 +8,7 @@ The User can click on the website link it created for the Application, and the C
 
 ## Dependencies and folder structure.
 
-- Develop on JDK 11 and also tested on JDK 14.
+- Develop on JDK 11 and also tested on JDK 14 and JDK 17.
 - Load the Maven dependencies into the project (pom.xml). 
 - Download and extract the Derby driver, add the "lib" folder to the "PFiller" folder, and add to the Libraries in IDE.
   Derby link: https://db.apache.org/derby/derby_downloads.html
